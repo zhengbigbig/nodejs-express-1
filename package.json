@@ -8,14 +8,23 @@
     "watch": "onchange 'src/**/*.js' 'src/**/*.less' -- npm run webpack"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "^1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
+    "express-session": "^1.15.6",
     "http-errors": "~1.6.2",
     "less": "^3.8.1",
     "lodash": "^4.17.10",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "node-inspector": "^0.7.5",
+    "node-pre-gyp": "^0.11.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "passport-jirengu": "^1.0.1",
+    "sequelize": "^4.38.1",
+    "serve-favicon": "^2.5.0",
+    "sqlite3": "^4.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -27,5 +36,18 @@
     "style-loader": "^0.23.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengbigbig/nodejs-express-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhengbigbig/nodejs-express-1/issues"
+  },
+  "homepage": "https://github.com/zhengbigbig/nodejs-express-1#readme"
 }
