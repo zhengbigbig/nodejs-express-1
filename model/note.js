@@ -30,8 +30,8 @@ var Note = sequelize.define('note', {
     .then(() => {
     // Table created
     return Note.create({
-        text:'hello world',
-        username:'xasxasx'
+        text:'请登录github账号，创建属于你的便利贴',
+        username:'6'
     });
 });*/
 /*Note.findAll({raw:true}).then(notes => {
